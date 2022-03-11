@@ -22,6 +22,6 @@ public class Worker {
     @OneToOne(cascade = CascadeType.ALL)
     private Address address;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     private Department department;
 }
